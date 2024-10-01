@@ -22,9 +22,9 @@ int main(void){
 
     int sum = sum_lower_triangular_matrix(mat, 5);
     if (sum != -1) {
-        printf("A soma dos elementos da matriz triangular inferior é: %d\n", sum);
+        printf("The sum is: %d\n", sum);
     } else {
-        printf("A matriz não é triangular inferior, não é possível calcular a soma.\n");
+        printf("Impossible to calculate the sum.\n");
     }
 
     return 0;
