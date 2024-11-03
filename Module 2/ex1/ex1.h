@@ -1,4 +1,4 @@
-#ifndef ASM_H
-#define ASM_H
+#ifndef EX1_H
+#define EX1_H
 void sum(void);
 #endif
