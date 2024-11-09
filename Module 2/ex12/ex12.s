@@ -1,10 +1,10 @@
-.global .data
+.section .data
     .global op1
     op1: .long 10
     .global op2
     op2: .long 5
 
-.global .text
+.section .text
     .global isMultiple
 
 isMultiple:

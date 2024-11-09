@@ -1,4 +1,4 @@
-.global .data
+.section .data
     .global lenght1
     lenght1: .short 10
     .global lenght2
@@ -6,7 +6,7 @@
     .global height
     height: .short 30
 
-.global .text
+.section .text
     .global trapezie
 
 trapezie:

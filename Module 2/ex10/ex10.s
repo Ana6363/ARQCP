@@ -1,4 +1,4 @@
-.global .data
+.section .data
 .global op1
 op1: .long 10
 .global op2
@@ -6,7 +6,7 @@ op2: .long 20
 .global op3
 op3: .long 30
 
-.global .text
+.section .text
 .global sum3ints
 
 sum3ints:

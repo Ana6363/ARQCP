@@ -1,4 +1,4 @@
-.global .data
+.section .data
 .global A
 A: .long 20
 .global B
@@ -8,7 +8,7 @@ C: .short 30
 .global D
 D: .short 40
 
-.global .text
+.section .text
 sum_and_subtract;
 
 sum_and_subtract:

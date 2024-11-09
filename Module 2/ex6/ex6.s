@@ -1,10 +1,10 @@
-.global .data
+.section .data
 .global op1
 op1: .short 0x1234
 .global op2 
 op2: .short 0x5678
 
-.global .text
+.section .text
 .global change
 
 

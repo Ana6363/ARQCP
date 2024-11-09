@@ -1,8 +1,8 @@
-.global .data
+.section .data
     .global num1
     num1: .long 10
 
-.global .text
+.section .text
     .global steps
 
 steps:

@@ -1,4 +1,4 @@
-.global .data
+.section .data
     .global A
     A: .long 10
     .global B
@@ -8,7 +8,7 @@
     .global D
     D: .long 40
 
-.global .text
+.section .text
     .global compute
 
 compute:

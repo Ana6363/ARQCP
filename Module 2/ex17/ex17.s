@@ -1,4 +1,4 @@
-.global .text
+.section .text
     .global sum
     .global sub
     .global mul

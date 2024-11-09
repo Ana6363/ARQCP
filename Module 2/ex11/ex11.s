@@ -1,11 +1,11 @@
-.global .data
+.section .data
 .global op1
 op1: .short 10
 .global op2
 op2: .short 20
 
 
-.global .text
+.section .text
 .global verify_flags
 
 
