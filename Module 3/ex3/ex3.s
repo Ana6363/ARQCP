@@ -22,21 +22,21 @@ loop:
     je U
 
     movb %al, (%rdx)
-    incq %rdx
-    incq %rcx
+    addq $4, %rdx
+    addq $4, %rcx
     jmp loop
 
 
 u:
     movb $'v', (%rdx)
-    incq %rdx
-    incq %rcx
+    addq $4, %rdx
+    addq $4, %rcx
     jmp loop
 
 U: 
     movb $'V', (%rdx)
-    incq %rdx
-    incq %rcx
+    addq $4, %rdx
+    addq $4, %rcx
     jmp loop
 
 end:

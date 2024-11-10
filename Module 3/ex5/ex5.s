@@ -17,7 +17,7 @@ loop:
     je end
 
     addl (%rcx), %rax
-    incl %rcx
+    addq $4, %rcx
     decl %edx
     jmp loop
 

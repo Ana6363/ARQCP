@@ -17,8 +17,8 @@ loop:
     je loop2
 
     movb %dil, (%r8)
-    incq %r8
-    incq %rcx
+    addq $4, %r8
+    addq $4, %rcx
     jmp loop
 
 loop2:
@@ -27,8 +27,8 @@ loop2:
     je end
 
     movb %dil, (%r8)
-    incq %r8
-    incq %rdx
+    addq $4, %r8
+    addq $4, %rdx
     jmp loop2
 
 end:

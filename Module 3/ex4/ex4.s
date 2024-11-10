@@ -19,7 +19,7 @@ loop:
     je end
 
     addq $ADD, (%rcx)
-    incq %rcx
+    addq $4, %rcx
     decq %rdx
     jmp loop
 

@@ -19,11 +19,11 @@ loop:
     jne next
 
     incq %rdi
-    incq %rdx
+    addq $4, %rdx
     decq %rcx
 
 next:
-    incq %rdx
+    addq $4, %rdx
     decq %rcx
     jmp loop
 

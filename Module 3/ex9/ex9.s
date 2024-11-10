@@ -21,7 +21,7 @@ loop:
     cmpq %r8, (%rcx)
     je end
 
-    incq %rcx
+    addq $4, %rcx
     decq %rdx
 
     jmp loop

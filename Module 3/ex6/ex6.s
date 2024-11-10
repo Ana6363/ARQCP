@@ -24,11 +24,11 @@ loop:
     incq %rax
 
 a:
-    incq %rcx
+    addq $4, %rcx
     jmp loop
 
 space:
-    incq %rcx
+    addq $4, %rcx
     jmp loop
 
 end:
